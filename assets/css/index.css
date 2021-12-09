@@ -76,3 +76,7 @@ main {
 #staff img:hover {
   transform: scale(1.05);
 }
+
+footer {
+  background-color: rgb(30, 49, 88);
+}

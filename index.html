@@ -55,6 +55,11 @@
             ><img
               src="./assets/img/logo.png"
               class="w-16 border-2 rounded-full"
+              alt="" /></a
+          ><a href="https://www.acps.edu.bd/" target="_blank"
+            ><img
+              src="./assets/img/adamjee.png"
+              class="w-16 rounded-full"
               alt=""
           /></a>
           <a href="index.html"><h1 class="font-bold text-xl">ACPSITC</h1></a>
@@ -64,21 +69,25 @@
           <li><a href="#about">About Us</a></li>
           <li><a href="#staff">Staff</a></li>
           <li>Achievements</li>
-          <li>Contact</li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <button
-          class="
-            bg-blue-500
-            px-4
-            py-3
-            rounded-md
-            hover:bg-blue-400
-            transition
-            duration-200
-          "
+        <a
+          target="_blank"
+          href="https://docs.google.com/forms/u/4/d/e/1FAIpQLSe144yGk-zbvpoJ6Nv6pfOX7HkSfMd-RFCpVxVx-MyDdjJPcA/viewform"
+          ><button
+            class="
+              bg-blue-500
+              px-4
+              py-3
+              rounded-md
+              hover:bg-blue-400
+              transition
+              duration-200
+            "
+          >
+            Join Us
+          </button></a
         >
-          Join Us
-        </button>
       </nav>
       <div
         class="
@@ -145,17 +154,18 @@
             <h1 class="text-3xl font-semibold">About Us</h1>
             <br />
             <p class="text-left text-md">
-              ACPS IT Club is the pride of Adamjee Cantonment Public School &
-              College. <br /><br />Founded in (I don't know year) by (some
-              person), the club has been going forward with it's goal to teach
-              others about computers and tech in general. <br /><br />At the
-              moment there are about (number of members) members in the club,
-              and more are joining every day.
+              ACPS IT Club is the pride of
+              <span class="font-bold">Adamjee Cantonment Public School</span>.
+              <br /><br />Founded in (I don't know year) by (some person), the
+              club has been going forward with it's goal to teach others about
+              computers and tech in general. <br /><br />At the moment there are
+              about (number of members) members in the club, and more are
+              joining every day.
             </p>
           </div>
         </div>
       </section>
-      <section id="staff" class="container mx-auto w-full relative pt-36">
+      <section id="staff" class="container pb-16 mx-auto w-full relative pt-36">
         <div data-aos="fade-up">
           <h1 class="text-center text-4xl font-bold">Staff</h1>
           <br />
@@ -216,8 +226,62 @@
           </div>
         </div>
       </section>
-      <br /><br /><br />
+      <section
+        id="contact"
+        class="
+          container
+          mx-auto
+          relative
+          pt-32
+          pb-20
+          flex
+          items-center
+          justify-center
+          w-9/12
+        "
+      >
+        <div
+          data-aos="fade-down"
+          class="text-black bg-white p-8 rounded-md shadow-xl"
+        >
+          <h1 class="text-4xl font-bold mono">Contact Us</h1>
+          <br />
+          <p class="text-lg">
+            You can get in touch with us via our mailbox at:
+          </p>
+          <a href="mailto:acpsitclub@gmail.com" class="text-2xl font-semibold"
+            >acpsitclub@gmail.com</a
+          >
+          <br />
+          <br />
+          <p class="text-lg">
+            We are also available on our
+            <a
+              href="https://www.facebook.com/acpsit/"
+              target="_blank"
+              class="text-blue-500"
+              >Facebook</a
+            >
+            page.
+          </p>
+        </div>
+        <div
+          id="earth"
+          class="
+            absolute
+            left-0
+            top-0
+            w-6/12
+            earth-container earth-ready earth-draggable
+          "
+        ></div>
+      </section>
     </main>
+
+    <footer class="w-full h-16 flex justify-center items-center text-white">
+      <p id="copyright-text"></p>
+    </footer>
+    <script src="./assets/js/miniature.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
