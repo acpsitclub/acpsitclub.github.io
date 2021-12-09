@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACPS IT Club</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section
+      id="header"
+      class="h-screen w-full bg-gray-600 relative text-white"
+    >
+      <nav
+        class="
+          navbar
+          top-0
+          left-1/2
+          transform
+          -translate-x-1/2
+          z-10
+          fixed
+          mono
+          flex
+          pt-6
+          container
+          items-center
+          justify-between
+        "
+      >
+        <div class="banner flex items-center gap-6">
+          <a href="index.html"
+            ><img
+              src="./assets/img/logo.png"
+              class="w-16 border-2 rounded-full"
+              alt=""
+          /></a>
+          <a href="index.html"><h1 class="font-bold text-xl">ACPSITC</h1></a>
+        </div>
+        <ul class="flex items-center gap-9 text-lg">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#staff">Staff</a></li>
+          <li>Achievements</li>
+          <li>Contact</li>
+        </ul>
+        <button
+          class="
+            bg-blue-500
+            px-4
+            py-3
+            rounded-md
+            hover:bg-blue-400
+            transition
+            duration-200
+          "
+        >
+          Join Us
+        </button>
+      </nav>
+      <div
+        class="
+          absolute
+          left-1/2
+          top-1/2
+          transform
+          -translate-x-1/2 -translate-y-1/2
+          w-full
+          lg:w-6/12
+        "
+      >
+        <h1 id="welcome" class="mono text-center mb-16 text-3xl w-full"></h1>
+        <h1 data-aos="fade-up" class="font-bold text-6xl text-center">
+          Technology has to be
+          <span class="text-blue-400 italic">invented</span>, or
+          <span class="text-blue-400 italic">adopted</span>
+        </h1>
+      </div>
+      <div
+        class="
+          absolute
+          bottom-10
+          mb-12
+          text-2xl
+          left-1/2
+          transform
+          -translate-x-1/2
+        "
+      >
+        <a href="#about"><i class="fas fa-chevron-down cursor-pointer"></i></a>
+      </div>
+    </section>
+    <main class="text-white h-full">
+      <section
+        id="about"
+        class="container mx-auto pt-64 h-full w-full relative"
+      >
+        <div class="activities relative" data-aos="fade-right">
+          <img
+            id="a1"
+            class="rounded-md shadow-xl"
+            src="./assets/img/activities/1.jpg"
+            width="600"
+            alt=""
+          />
+          <img
+            id="a2"
+            class="rounded-md shadow-xl"
+            src="./assets/img/activities/2.jpg"
+            width="600"
+            alt=""
+          />
+          <img
+            id="a3"
+            class="rounded-md shadow-xl"
+            src="./assets/img/activities/3.jpg"
+            width="500"
+            alt=""
+          />
+        </div>
+        <div class="aboutus-container" data-aos="fade-up-left">
+          <div class="about-us bg-white p-10 rounded-md shadow-xl text-center">
+            <h1 class="text-3xl font-semibold">About Us</h1>
+            <br />
+            <p class="text-left text-md">
+              ACPS IT Club is the pride of Adamjee Cantonment Public School &
+              College. <br /><br />Founded in (I don't know year) by (some
+              person), the club has been going forward with it's goal to teach
+              others about computers and tech in general. <br /><br />At the
+              moment there are about (number of members) members in the club,
+              and more are joining every day.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="staff" class="container mx-auto w-full relative pt-36">
+        <div data-aos="fade-up">
+          <h1 class="text-center text-4xl font-bold">Staff</h1>
+          <br />
+          <p class="text-center text-xl w-9/12 mx-auto">
+            Here are the current staff members who working hard to keep this
+            club running smoothly. The current executive session is made up of
+            staff members from 2020-2021.
+          </p>
+        </div>
+        <div class="mt-12 grid grid-cols-3 gap-16 text-center w-10/12 mx-auto">
+          <div>
+            <img
+              data-aos="flip-right"
+              src="./assets/img/panel/president.jpg"
+              width="400"
+              alt="President"
+            />
+          </div>
+          <div>
+            <img
+              data-aos="flip-left"
+              src="./assets/img/panel/gs.jpg"
+              width="400"
+              alt="General Secretary"
+            />
+          </div>
+          <div>
+            <img
+              data-aos="flip-right"
+              src="./assets/img/panel/os.jpg"
+              width="400"
+              alt="Organizing Secretary"
+            />
+          </div>
+          <div>
+            <img
+              data-aos="flip-left"
+              src="./assets/img/panel/hv.jpg"
+              width="450"
+              alt="Head of Volunteering"
+            />
+          </div>
+          <div>
+            <img
+              data-aos="flip-right"
+              src="./assets/img/panel/hs.jpg"
+              width="450"
+              alt="Head of Segments"
+            />
+          </div>
+          <div>
+            <img
+              data-aos="flip-left"
+              src="./assets/img/panel/hd.jpg"
+              width="450"
+              alt="Head of Designing"
+            />
+          </div>
+        </div>
+      </section>
+      <br /><br /><br />
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

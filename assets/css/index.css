@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(96, 165, 250) rgb(30, 49, 88);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#header {
+  background-image: url("../img/splash-bg.png");
+}
+
+.navbar {
+  z-index: 20;
+}
+
+.mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+main {
+  background-color: rgb(3, 23, 47);
+}
+
+.activities img {
+  transition: transform 0.5s;
+}
+
+.activities #a1 {
+  position: absolute;
+  top: 20px;
+  z-index: 10;
+  left: 380px;
+  transform-origin: center;
+  transform: rotate(5deg);
+}
+
+.activities #a2 {
+  position: absolute;
+  z-index: 5;
+  top: 200px;
+  left: 100px;
+  transform-origin: center;
+  transform: rotate(-5deg);
+}
+
+.activities #a3 {
+  position: absolute;
+  z-index: 15;
+  top: -100px;
+  transform-origin: center;
+  transform: rotate(-10deg);
+}
+
+.about-us {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(30, 49, 88);
+  width: 500px;
+  z-index: 25;
+}
+
+.aboutus-container {
+  height: 80vh;
+}
+
+#staff img {
+  transition: transform 0.5s;
+}
+
+#staff img:hover {
+  transform: scale(1.05);
+}
